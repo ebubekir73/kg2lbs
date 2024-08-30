@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weight Converter</title>
+</head>
+<body>
+
+    <h1>Enter Your Weight</h1>
+
+    <form action="/submit" method="post">
+        <label for="kilograms">Weight:</label>
+        <input type="number" id="kilograms" name="kilograms" placeholder="Enter your weight" required>
+
+        <fieldset>
+            <legend>Select Unit:</legend>
+
+            <label for="kilos">
+                <input type="radio" id="kilos" name="option" value="kilos" required>
+                Kilograms
+            </label>
+
+            <label for="pounds">
+                <input type="radio" id="pounds" name="option" value="pounds">
+                Pounds
+            </label>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Footer Start -->
+<footer style="background-color: #333; padding: 20px; text-align: center; color: white;">
+    <p style="margin: 0; font-size: 16px;">&copy; 2024 Your Name</p>
+    <div style="margin: 10px 0;">
+        <a href="https://www.facebook.com/yourprofile" target="_blank" style="text-decoration: none; color: white; margin: 0 10px;">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.twitter.com/yourprofile" target="_blank" style="text-decoration: none; color: white; margin: 0 10px;">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank" style="text-decoration: none; color: white; margin: 0 10px;">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" style="text-decoration: none; color: white; margin: 0 10px;">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
+</footer>
+<!-- Footer End -->
+
+<!-- Add FontAwesome CDN for Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

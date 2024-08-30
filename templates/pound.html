@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RESULT</title>
+</head>
+<body>
+    <h1>Your weight in pounds</h1>
+    <h1>{{ lbs }}</h1>
+    <nav>
+        <a href="{{ url_for('home') }}">
+            <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                Go to Home
+            </button>
+        </a>
+        <!-- Add more navigation buttons or links here -->
+    </nav>
+    
+    <!-- Footer Start -->
+<footer style="background-color: #333; padding: 20px; text-align: center; color: white;">
+    <p style="margin: 0; font-size: 16px;">&copy; 2024 Your Name</p>
+    <div style="margin: 10px 0;">
+        <a href="https://www.facebook.com/yourprofile" target="_blank" style="text-decoration: none; color: white; margin: 0 10px;">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.twitter.com/yourprofile" target="_blank" style="text-decoration: none; color: white; margin: 0 10px;">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank" style="text-decoration: none; color: white; margin: 0 10px;">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" style="text-decoration: none; color: white; margin: 0 10px;">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
+</footer>
+<!-- Footer End -->
+
+<!-- Add FontAwesome CDN for Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
+
